@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Questionnaire • Best Man Challenge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <meta name="theme-color" content="#000000">
 </head>
@@ -25,14 +26,16 @@
 
   <header class="hero">
     <div class="container">
-      <h1>Questionnaire</h1>
-      <p class="lead">Tell us why you’ve got what it takes.</p>
+      <div class="logo-badge"><img src="assets/img/logo.png" alt="Logo"></div>
+      <h1 class="display">Questionnaire</h1>
+      <p class="lead-hero">Tell us why you’ve got what it takes.</p>
+      <div class="rule"></div>
     </div>
   </header>
 
   <main class="container">
     <form id="questionnaire-form" class="form" data-email="your@email.com">
-      <p><small class="hint">Tip: Replace the email at the top of this form’s code with your own to receive responses.</small></p>
+      <p><small class="hint">Replace the email in the code with your own to receive responses.</small></p>
 
       <label for="name">Your Name</label>
       <input id="name" name="Name" required placeholder="First & Last Name">
@@ -43,16 +46,16 @@
       <label for="moment">Favorite memory with the groom</label>
       <textarea id="moment" name="Favorite Memory" rows="3" placeholder="Keep it classy 😉" required></textarea>
 
-      <label for="skills">Top best-man skills you bring</label>
+      <label for="skills">Top best‑man skills you bring</label>
       <input id="skills" name="Skills" placeholder="Hype man, logistics, speechwriting, etc.">
 
       <label for="plan">What’s your game plan for the big day?</label>
       <textarea id="plan" name="Game Plan" rows="3" placeholder="Short + punchy is perfect." required></textarea>
 
-      <label for="song">One must-play song</label>
+      <label for="song">One must‑play song</label>
       <input id="song" name="Song" placeholder="Artist – Title">
 
-      <label for="availability">Availability for pre-wedding events</label>
+      <label for="availability">Availability for pre‑wedding events</label>
       <select id="availability" name="Availability">
         <option value="Flexible">Flexible</option>
         <option value="Weekends">Weekends only</option>
