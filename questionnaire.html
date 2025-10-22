@@ -40,42 +40,42 @@
   </header>
 
   <!-- ⚪ MAIN CONTENT -->
-  <main class="container">
+<main class="container">
 
-    <form id="questionnaire-form" class="form" data-email="your@email.com">
-      <p><small class="hint">Note: Replace the <code>data-email</code> address in this file with your own to receive responses.</small></p>
+  <form id="questionnaire-form" class="form" data-email="bretc213@gmail.com">
 
-      <label for="name">Your Name</label>
-      <input id="name" name="Name" required placeholder="First & Last Name">
+    <label for="name">Your Name</label>
+    <input id="name" name="Name" required placeholder="First & Last Name">
 
-      <label for="relationship">How do you know the groom?</label>
-      <input id="relationship" name="Relationship" required placeholder="e.g., College roommate, work friend, cousin">
+    <label for="username">Username</label>
+    <input id="username" name="Username" required placeholder="Daddyswipe is taken. Have fun but make sure we know it's you.">
 
-      <label for="moment">Favorite memory with the groom</label>
-      <textarea id="moment" name="Favorite Memory" rows="3" placeholder="Keep it classy 😉" required></textarea>
+    <label for="relationship">How do you know the groom?</label>
+    <input id="relationship" name="Relationship" required placeholder="e.g., College roommate, work friend, cousin">
 
-      <label for="skills">Top best-man skills you bring</label>
-      <input id="skills" name="Skills" placeholder="Hype man, logistics, speechwriting, etc.">
+    <label for="moment">Favorite memory with the groom</label>
+    <textarea id="moment" name="Favorite Memory" rows="3" placeholder="Keep it classy or don't 😉" required></textarea>
 
-      <label for="plan">What’s your game plan for the big day?</label>
-      <textarea id="plan" name="Game Plan" rows="3" placeholder="Short + punchy is perfect." required></textarea>
+    <label for="skills">How confident are you that you will win the challenge?</label>
+    <input id="skills" name="Skills" placeholder="1-100">
 
-      <label for="song">One must-play song</label>
-      <input id="song" name="Song" placeholder="Artist – Title">
+    <label for="Bio">Provide a brief Biography.</label>
+    <textarea id="Bio" name="Bio" rows="3" placeholder="Tell us about yourself!" required></textarea>
 
-      <label for="availability">Availability for pre-wedding events</label>
-      <select id="availability" name="Availability">
-        <option value="Flexible">Flexible</option>
-        <option value="Weekends">Weekends only</option>
-        <option value="Limited">Limited</option>
-      </select>
+    <label for="size">Shirt Size</label>
+    <input id="size" name="size" placeholder="S, M, L, XL">
 
-      <div style="margin-top:22px;">
-        <button class="btn" type="submit">Open Email to Submit</button>
-      </div>
-    </form>
+    <!-- 🖼️ New photo upload section -->
+    <label for="photo">Share a selfie or a cool photo with just you in it</label>
+    <input type="file" id="photo" name="Photo" accept="image/*" style="color: var(--muted); border: 1px solid var(--line); background: #0b0b0b; padding: 12px; border-radius: 12px; width: 100%; margin-top: 8px;">
 
-  </main>
+    <div style="margin-top:22px;">
+      <button class="btn" type="submit">Open Email to Submit</button>
+    </div>
+
+  </form>
+</main>
+
 
   <!-- ⚫ FOOTER -->
   <footer>
