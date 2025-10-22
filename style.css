@@ -78,27 +78,28 @@ a:hover{ text-decoration: underline; }
   border-bottom: 1px solid var(--line);
 }
 
-/* Logo Badge — fills space with white background and gold border */
+/* Logo Badge — white center, black gap border, muted gold frame */
 .logo-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 140px;
   height: 140px;
-  padding: 12px;
+  padding: 10px;
 
-  /* New styling */
-  background: #ffffff;          /* white fill like your screenshot */
-  border: 4px solid #D4AF37;    /* gold accent border */
-  border-radius: 24px;          /* soft rounded corners */
-  box-shadow: 0 0 12px rgba(212,175,55,0.15); /* subtle gold glow */
+  background: #ffffff;              /* white interior */
+  border: 3px solid #000000;        /* thin black inner ring (gap illusion) */
+  box-shadow:
+    0 0 0 5px #C2A570,              /* gold outer frame */
+    0 0 12px rgba(194,165,112,0.25); /* soft gold glow */
+  border-radius: 24px;              /* rounded corners for badge shape */
 }
 
 .logo-badge img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 18px;          /* matches inner roundness */
+  border-radius: 18px;              /* inner rounding */
 }
 
 /* ===================== CARDS ===================== */
